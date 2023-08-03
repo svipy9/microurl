@@ -1,7 +1,7 @@
 # MicroURL
 
 ## How to run localy
-Create venv
+Create virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate
@@ -10,5 +10,5 @@ source venv/bin/activate
 Run local server
 ```bash
 pip install -r requirements.txt
-make run
+uvicorn main:app --reload
 ```

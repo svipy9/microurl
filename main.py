@@ -1,5 +1,3 @@
-from typing import Union
-
 from fastapi import FastAPI, responses
 
 app = FastAPI()
@@ -8,7 +6,7 @@ app = FastAPI()
 @app.get("/api/ping")
 def read_root():
     """Healthcheck."""
-    
+
     return {"data": "pong"}
 
 
