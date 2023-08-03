@@ -21,5 +21,5 @@ def create_short_url(original_url: str):
 def follow_redirect(short_url: str):
     """Get original url from short url and redirect."""
 
-    original_url = "https://practicum.com"
+    original_url = "https://tripleten.com"
     return responses.RedirectResponse(original_url)
